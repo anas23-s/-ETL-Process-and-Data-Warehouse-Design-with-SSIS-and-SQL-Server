@@ -7,7 +7,12 @@ This project includes ETL processes implemented using SQL Server Integration Ser
 1. **SSIS Packages**: This folder contains SSIS packages responsible for the ETL processes:
    - **Dimension Tables ETL Package**: This package extracts data from the staging area, transforms it, and loads it into the dimension tables of the data warehouse.
    - **Fact Tables ETL Package**: This package performs similar operations for the fact tables.
-   - Screenshots illustrating the ETL processes for both dimension and fact tables are included.
+ ### Figure 1: Dimension Tables ETL Process
+![Dimension Tables ETL Process](assets/images/dimpackage.jpg)
+
+### Figure 2: Fact Tables ETL Process
+![Fact Tables ETL Process](assets/images/factpackage.jpg)
+
 
 2. **SQL Files**: This folder includes `.sql` files that define:
    - The design and structure of the data warehouse.
