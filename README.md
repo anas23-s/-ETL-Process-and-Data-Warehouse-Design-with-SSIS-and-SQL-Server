@@ -8,7 +8,7 @@ This project includes ETL processes implemented using SQL Server Integration Ser
    - **Dimension Tables ETL Package**: This package extracts data from the staging area, transforms it, and loads it into the dimension tables of the data warehouse.
    - **Fact Tables ETL Package**: This package performs similar operations for the fact tables.
  ### Figure 1: Dimension Tables ETL Process
-![Dimension Tables ETL Process](assets/images/dimpackage.jpg)
+![Dimension Tables ETL Process](assets/images/dimpackage.JPG)
 
 ### Figure 2: Fact Tables ETL Process
 ![Fact Tables ETL Process](assets/images/factpackage.jpg)
